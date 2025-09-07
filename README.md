@@ -14,7 +14,8 @@ Options:
   -h, --help                     Print help
 ```
 
-Note: You will have to have created the temp dir for chunk storage because after getting it to work I was too bored to make it create the directory itself.
+Note1: You will have to have created the temp dir for chunk storage because after getting it to work I was too bored to make it create the directory itself.
+Note2: Since the initial file is split into sorted chunks and then remerged, you should have a lot of disk space available.
 
 Example run:
 ```
