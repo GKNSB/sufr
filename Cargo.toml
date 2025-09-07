@@ -1,0 +1,11 @@
+[package]
+name = "sufr"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tempfile = "3.10"
+rayon = "1.10"
+clap = { version = "4.5", features = ["derive"] }
+indicatif = "0.17"
+uuid = { version = "1", features = ["v4"] }
